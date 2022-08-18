@@ -15,7 +15,7 @@ const data={
 
         {
             name:'Fit Shirt',
-            slug:'Fit-shirt',
+            slug:'fit-shirt',
             category:'Shirts',
             image:'/images/ghib2.jpg',
             price: 60,
