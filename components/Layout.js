@@ -5,7 +5,7 @@ import { Store } from '../utils/store';
 
 export default function Layout({children, title}) {
 
-  const {state, dispatch} = useContext(Store);
+  const {state} = useContext(Store);
   const {cart} = state;
   return (
     <>

@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import {useRouter, } from 'next/router'
+import  {useRouter } from 'next/router'
 import Image from 'next/image';
 import  data  from '../../utils/data';
 import Link from 'next/link';
@@ -8,6 +8,7 @@ import { Store } from '../../utils/store';
 export default function ProductScreen() {
 
     const {state, dispatch} = useContext(Store);
+    const router = useRouter();
     const {query} = useRouter();
     const {slug} = query;
 
@@ -35,6 +36,8 @@ export default function ProductScreen() {
             alert('Sorry, Product is our of Stock');
             return;
         }
+        dispatch ({ type: 'ADD_ITEM', payload:{ ...product, quantity}});
+        router.push('/cart');
     }
   return (
     
