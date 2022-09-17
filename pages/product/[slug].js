@@ -12,7 +12,6 @@ export default function ProductScreen() {
     const {query} = useRouter();
     const {slug} = query;
 
-
     const product = data.products.find((x)=> x.slug === slug);
 
     if(!product){
