@@ -11,8 +11,6 @@ export default function ProductItem({product}) {
                     className='rounded shadow'
                     src={product.image}
                     alt={product.name}
-                    
-                    
                 />
             </a>
         </Link>
