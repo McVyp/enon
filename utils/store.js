@@ -56,3 +56,4 @@ export function StoreProvider ({children}) {
 
     return <Store.Provider value={value}>{children}</Store.Provider>;
 }
+
