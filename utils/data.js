@@ -29,7 +29,7 @@ const data={
             rating: 4.5,
             numReviews:8,
             countInStock: 20,
-            descript:'A pouplar shirt'
+            description:'A pouplar shirt'
         },
 
         {
@@ -42,7 +42,7 @@ const data={
             rating: 4,
             numReviews: 20,
             countInStock: 20,
-            descript:'A pouplar shirt'
+            description:'A pouplar shirt'
         },
         {
             name:'Puma Pant',
@@ -54,11 +54,11 @@ const data={
             rating: 5,
             numReviews:8,
             countInStock: 0,
-            descript:'A pouplar shirt'
+            description:'A pouplar shirt'
         },
         {
             name:'Zara Pant',
-            slug:'puma-pant',
+            slug:'zara-pant',
             category:'Pant',
             image:'/images/spira.jpg',
             price: 30,
@@ -66,7 +66,7 @@ const data={
             rating: 3,
             numReviews: 18,
             countInStock: 10,
-            descript:'A pouplar shirt'
+            description:'A pouplar shirt'
         }
     ]
 }
