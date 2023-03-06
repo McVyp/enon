@@ -1,9 +1,9 @@
 import React, { useContext, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import Cookies from 'js-cookie';
-import CheckoutWizard from '../components/CheckoutWizard';
-import Layout from '../components/Layout';
-import { Store } from '../utils/Store';
+import CheckoutWizard from '../components/checkoutWizard';
+import Layout from '../components/layout';
+import { Store } from '../utils/store';
 import { useRouter } from 'next/router';
 
 export default function ShippingScreen() {

@@ -12,7 +12,7 @@ import {
   Legend,
 } from 'chart.js';
 import React, { useEffect, useReducer } from 'react';
-import Layout from '../../components/Layout';
+import Layout from '../../components/layout';
 import { getError } from '../../utils/error';
 
 ChartJS.register(

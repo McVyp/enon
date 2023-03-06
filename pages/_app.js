@@ -1,6 +1,6 @@
 import '../styles/globals.css';
 import { SessionProvider, useSession } from 'next-auth/react';
-import { StoreProvider } from '../utils/Store';
+import { StoreProvider } from '../utils/store';
 import { useRouter } from 'next/router';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 

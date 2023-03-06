@@ -1,11 +1,11 @@
 import axios from 'axios';
 import { useContext } from 'react';
 import { toast } from 'react-toastify';
-import Layout from '../components/Layout';
-import ProductItem from '../components/ProductItem';
+import Layout from '../components/layout';
+import ProductItem from '../components/productItem';
 import Product from '../models/Product';
 import db from '../utils/db';
-import { Store } from '../utils/Store';
+import { Store } from '../utils/store';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Link from 'next/link';
