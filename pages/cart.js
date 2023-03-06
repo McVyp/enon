@@ -12,6 +12,7 @@ import { toast } from 'react-toastify';
 function CartScreen() {
   const router = useRouter();
   const { state, dispatch } = useContext(Store);
+  
   const {
     cart: { cartItems },
   } = state;
