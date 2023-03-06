@@ -2,10 +2,10 @@ import axios from 'axios';
 import { useRouter } from 'next/router';
 import { useContext } from 'react';
 import { toast } from 'react-toastify';
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 import { Store } from '../utils/store';
 import { XCircleIcon } from '@heroicons/react/outline';
-import ProductItem from '../components/productItem';
+import ProductItem from '../components/ProductItem';
 import Product from '../models/Product';
 import db from '../utils/db';
 
