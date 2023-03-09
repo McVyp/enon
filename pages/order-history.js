@@ -4,6 +4,7 @@ import React, { useEffect, useReducer } from 'react';
 import Layout from '../components/Layout';
 import { getError } from '../utils/error';
 
+
 function reducer(state, action) {
   switch (action.type) {
     case 'FETCH_REQUEST':
